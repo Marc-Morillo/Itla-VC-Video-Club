@@ -11,6 +11,10 @@ import javax.swing.border.EmptyBorder;
 import java.awt.Toolkit;
 import java.awt.Color;
 import javax.swing.JMenuBar;
+import java.awt.SystemColor;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
+import javax.swing.JMenuItem;
 
 public class FrmAOpcion extends JFrame {
 
@@ -46,11 +50,18 @@ public class FrmAOpcion extends JFrame {
 		
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
+		
+		JMenuItem mntmNewMenuItem = new JMenuItem("New menu item");
+		menuBar.add(mntmNewMenuItem);
 		contentPane = new JPanel();
-		contentPane.setBackground(Color.LIGHT_GRAY);
+		contentPane.setBackground(SystemColor.control);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("");
+		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Marcos Morillo\\Downloads\\PngItem_5435420.png"));
+		lblNewLabel.setBounds(150, 11, 700, 689);
+		contentPane.add(lblNewLabel);
 	}
-
 }
