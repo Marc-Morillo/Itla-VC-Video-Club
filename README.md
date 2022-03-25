@@ -1,98 +1,83 @@
 # Itla-VC-Video-Club
-## Plantilla para proyecto de Github
-#  Título del Proyecto
 
-_Acá va un párrafo que describa lo que es el proyecto_
+#  Sistema de Video Club 🎥
 
-## Comenzando 🚀
+_Desarrolle un Sistema de Video Club que cumpla con las siguientes caracteristicas:_
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_- Gestión de Tipos de Articulos (DVD Película, BLU-Ray Película , CD Música)_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+_- Gestión de Elenco_
 
+_- Gestión de Generos (Drama, Comedia, Ciencia Ficción, etc.)_
 
-### Pre-requisitos 📋
+_- Gestión de Idiomas (Español, Inglés, Francés, etc.)_
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_- Gestión de Descripcion de Articulos_
 
-```
-Da un ejemplo
-```
+_- Gestión de Clientes_
 
-### Instalación 🔧
+_- Gestión de Empleados (quienes a_sisten al cliente en la renta)_
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_- Proceso de Renta y Devolución de articulos_
 
-_Dí cómo será ese paso_
+_- Una consulta por criterios (ej: Rentas por Cliente, fecha, articulo, etc.)_
 
-```
-Da un ejemplo
-```
+_- Un Reporte de rentas: entre fechas, por tipo de articulo, etc._
 
-_Y repite_
+_- Desarrollado en la tecnología de su preferencia._
 
-```
-hasta finalizar
-```
+## Nota (preocupació)
+Tengo una pequeña duda profesor y es sobre si es necesario hacer una aplicacion web, empeze a hacerla en formato form implementando aspectos de MVC debido a que me siento mas comodo al realizar forms, pero si es obligatorio usar tecnologias .NET entonces apreciaria que me informara para poder hacer los cambios lo antes posible y no perder mas tiempo.
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+## Construccion 🚀
+_Estructura actual de MySQL_
+
+![image](https://user-images.githubusercontent.com/86896794/160165760-834c09b4-5ae5-4176-bb66-66b81b64f49f.png)
+
+_Formato de carpetas_
+
+![image](https://user-images.githubusercontent.com/86896794/160165855-72609f70-2945-45e9-a605-a734816eba86.png)
+
+__
+
 
 ## Ejecutando las pruebas ⚙️
+_Login_
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+![image](https://user-images.githubusercontent.com/86896794/160165979-19effc55-375e-440d-ae94-a30d25c7e9e2.png)
 
-### Analice las pruebas end-to-end 🔩
+Si los datos son correctos pasa al siguiente form
 
-_Explica que verifican estas pruebas y por qué_
+_Opciones_
 
-```
-Da un ejemplo
-```
+![image](https://user-images.githubusercontent.com/86896794/160166192-b1ba6cfd-4723-4534-8af6-97f77069ad9f.png)
 
-### Y las pruebas de estilo de codificación ⌨️
+Mas tarde se agregaran opciones ejecutable a la barra de menu con todas las utilidades mencionadas, como:
 
-_Explica que verifican estas pruebas y por qué_
+_Registrar CLiente_
 
-```
-Da un ejemplo
-```
+![image](https://user-images.githubusercontent.com/86896794/160166468-7b06fbf9-1e4c-41bf-98ac-4093f761eac6.png)
 
-## Despliegue 📦
+_Registrar Empleado_
 
-_Agrega notas adicionales sobre como hacer deploy_
+![image](https://user-images.githubusercontent.com/86896794/160166403-fe6ed556-a81a-49ab-a91d-ff703f7b96df.png)
+
+__
 
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+* [Eclipse](https://es.wikipedia.org/wiki/Eclipse_(software)) - EL IDE usado
+* [Java](https://www.java.com/es/download/ie_manual.jsp) - El Lenguaje usado
+* [MySQL](https://www.mysql.com/) - Gestor de base de datos usado
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+* **Marcos José Morillo Suarez** - *Trabajo Inicial* - [Marcos](https://github.com/Marc-Morillo)
+* **Marcos José Morillo Suarez** - *Documentación* - [Marcos](https://github.com/Marc-Morillo)
 
 ## Expresiones de Gratitud 🎁
 
@@ -101,7 +86,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Da las gracias públicamente 🤓.
 * etc.
 
-
-
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
