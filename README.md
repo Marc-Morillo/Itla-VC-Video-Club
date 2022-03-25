@@ -107,8 +107,8 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Marcos José Morillo Suarez** - *Trabajo Inicial* - [Marcos](https://github.com/Marc-Morillo)
+* **Marcos José Morillo Suarez** - *Documentación* - [Marcos](https://github.com/Marc-Morillo)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
