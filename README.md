@@ -1,6 +1,6 @@
-# Itla-VC-Video-Club 🎥
+# Itla-VC-Video-Club
 
-#  Sistema de Video Club
+#  Sistema de Video Club 🎥
 
 _Desarrolle un Sistema de Video Club que cumpla con las siguientes caracteristicas:_
 
