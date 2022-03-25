@@ -87,9 +87,9 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Eclipse](https://es.wikipedia.org/wiki/Eclipse_(software)) - EL IDE usado
+* [Java](https://www.java.com/es/download/ie_manual.jsp) - El Lenguaje usado
+* [MySQL](https://www.mysql.com/) - Gestor de base de datos usado
 
 ## Contribuyendo 🖇️
 
