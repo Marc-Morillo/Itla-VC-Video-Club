@@ -8,16 +8,24 @@ import java.awt.Point;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import clases.Usuario;
+import mantenimientos.GestionSesion;
+
 import java.awt.GridBagLayout;
 import java.awt.Color;
 import java.awt.SystemColor;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
 import java.awt.Font;
 import java.awt.Toolkit;
 import javax.swing.ImageIcon;
 import javax.swing.JPasswordField;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class FrmLogin extends JFrame {
 
@@ -86,6 +94,11 @@ public class FrmLogin extends JFrame {
 		panel.add(psdpass);
 		
 		JButton btnIngresar = new JButton("Ingresar");
+		btnIngresar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Ingresar();
+			}
+		});
 		btnIngresar.setForeground(Color.WHITE);
 		btnIngresar.setBackground(new Color(60, 179, 113));
 		btnIngresar.setFont(new Font("Tahoma", Font.BOLD, 17));
@@ -102,5 +115,33 @@ public class FrmLogin extends JFrame {
 		lblInicio.setForeground(Color.WHITE);
 		lblInicio.setBackground(Color.DARK_GRAY);
 		lblInicio.setFont(new Font("Tw Cen MT", Font.BOLD, 40));
+	}
+	
+	protected void Ingresar()
+	{
+		//Tomando los valores ingresados en la interfaz (text)
+		String usuario = txtUser.getText();
+		String contraseña = String.valueOf(psdpass.getPassword());
+		GestionSesion Gestion = new GestionSesion();
+		Usuario usux = new Usuario();
+		
+		//Guardando los valores 
+		usux.setUserName(usuario);
+		usux.setPassword(contraseña);
+		
+		//Verificando si los valores estan ya en la base de datos
+		Usuario usu = Gestion.obtenerUsuario(usux);
+		if(usu != null)
+		{
+			JOptionPane.showMessageDialog(contentPane, "Bienvenido");
+			this.dispose();
+			FrmAOpcion opcion = new FrmAOpcion();
+			opcion.setVisible(true);
+		}
+		else
+		{
+			JOptionPane.showMessageDialog(contentPane, "“debe ingresar su usuario\r\n"
+					+ "y contraseña, si no está registrado debe registrarse”", "Error", JOptionPane.ERROR_MESSAGE);
+		}
 	}
 }
