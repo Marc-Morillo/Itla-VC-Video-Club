@@ -27,6 +27,7 @@ public class FrmAEmpleado extends JFrame {
 	private JTextField txtNombre;
 	private JTextField txtCedula;
 	private JTextField txtComision;
+	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -48,6 +49,7 @@ public class FrmAEmpleado extends JFrame {
 	 * Create the frame.
 	 */
 	public FrmAEmpleado() {
+		setTitle("VC: Registrar Empleado");
 		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Marcos Morillo\\Desktop\\hhhh.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -62,8 +64,8 @@ public class FrmAEmpleado extends JFrame {
 		contentPane.setLayout(null);
 		
 		JPanel panel = new JPanel();
-		panel.setBackground(Color.DARK_GRAY);
 		panel.setBounds(331, 51, 344, 45);
+		panel.setBackground(Color.DARK_GRAY);
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
@@ -131,23 +133,28 @@ public class FrmAEmpleado extends JFrame {
 		txtEstado.setBounds(267, 318, 326, 28);
 		panel_1.add(txtEstado);
 		
+		textField = new JTextField();
+		textField.setBounds(267, 260, 326, 28);
+		panel_1.add(textField);
+		textField.setColumns(10);
+		
 		JButton btnCancelar = new JButton("Cancelar");
+		btnCancelar.setBounds(213, 551, 236, 70);
 		btnCancelar.setForeground(Color.WHITE);
 		btnCancelar.setBackground(new Color(220, 20, 60));
 		btnCancelar.setFont(new Font("Tahoma", Font.BOLD, 17));
-		btnCancelar.setBounds(213, 551, 236, 70);
 		contentPane.add(btnCancelar);
 		
 		JButton btnNewButton = new JButton("Guardar");
+		btnNewButton.setBounds(590, 551, 236, 70);
 		btnNewButton.setBackground(new Color(60, 179, 113));
 		btnNewButton.setForeground(Color.WHITE);
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 17));
-		btnNewButton.setBounds(590, 551, 236, 70);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\Marcos Morillo\\Downloads\\imageedit_6_7411422029.png"));
 		lblNewLabel_1.setBounds(685, 34, 70, 80);
+		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\Marcos Morillo\\Downloads\\imageedit_6_7411422029.png"));
 		contentPane.add(lblNewLabel_1);
 	}
 }

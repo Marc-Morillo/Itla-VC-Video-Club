@@ -8,6 +8,7 @@ import java.awt.Point;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import java.awt.Toolkit;
 
 public class FrmXElenco extends JFrame {
 
@@ -33,6 +34,7 @@ public class FrmXElenco extends JFrame {
 	 * Create the frame.
 	 */
 	public FrmXElenco() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Marcos Morillo\\Desktop\\hhhh.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Point center = GraphicsEnvironment.getLocalGraphicsEnvironment().getCenterPoint();
 		int width = 1000;
