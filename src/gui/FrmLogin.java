@@ -140,8 +140,8 @@ public class FrmLogin extends JFrame {
 		}
 		else
 		{
-			JOptionPane.showMessageDialog(contentPane, "“Debe ingresar su usuario\r\n"
-					+ "y contraseña, si no está registrado debe registrarse”", "ERROR", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(contentPane, "“Debe ingresar su usuario"
+					+ "y contraseña, si no está registrado debe solicitar un registro”", "ERROR", JOptionPane.ERROR_MESSAGE);
 		}
 	}
 }

@@ -51,8 +51,17 @@ public class FrmAOpcion extends JFrame {
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
 		
-		JMenuItem mntmNewMenuItem = new JMenuItem("New menu item");
+		JMenuItem mntmNewMenuItem = new JMenuItem("Registro");
+		mntmNewMenuItem.setBackground(new Color(176, 224, 230));
 		menuBar.add(mntmNewMenuItem);
+		
+		JMenuItem mntmNewMenuItem_1 = new JMenuItem("Renta y Devoluci\u00F3n");
+		mntmNewMenuItem_1.setBackground(new Color(250, 128, 114));
+		menuBar.add(mntmNewMenuItem_1);
+		
+		JMenuItem mntmNewMenuItem_2 = new JMenuItem("Consulta");
+		mntmNewMenuItem_2.setBackground(new Color(255, 255, 224));
+		menuBar.add(mntmNewMenuItem_2);
 		contentPane = new JPanel();
 		contentPane.setBackground(SystemColor.control);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
