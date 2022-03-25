@@ -26,7 +26,7 @@ _- Un Reporte de rentas: entre fechas, por tipo de articulo, etc._
 
 _- Desarrollado en la tecnología de su preferencia._
 
-## Nota (preocupació)
+## Nota (preocupación)
 Tengo una pequeña duda profesor y es sobre si es necesario hacer una aplicacion web, empeze a hacerla en formato form implementando aspectos de MVC debido a que me siento mas comodo al realizar forms, pero si es obligatorio usar tecnologias .NET entonces apreciaria que me informara para poder hacer los cambios lo antes posible y no perder mas tiempo.
 
 ## Construccion 🚀
