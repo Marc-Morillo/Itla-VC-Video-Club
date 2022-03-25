@@ -1,6 +1,6 @@
 # Itla-VC-Video-Club
-## Plantilla para proyecto de Github
-#  Título del Proyecto
+
+#  Sistema de Video Club
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
