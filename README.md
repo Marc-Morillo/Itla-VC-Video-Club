@@ -2,19 +2,19 @@
 
 #  Sistema de Video Club
 
-_Desarrolle un Sistema de Video Club que cumpla con las siguientes caracteristicas:
+_Desarrolle un Sistema de Video Club que cumpla con las siguientes caracteristicas:_
 
-_- Gestión de Tipos de Articulos (DVD Película, BLU-Ray Película , CD Música)
+_- Gestión de Tipos de Articulos (DVD Película, BLU-Ray Película , CD Música)_
 _-Gestión de Elenco
-_-Gestión de Generos (Drama, Comedia, Ciencia Ficción, etc.)
-_-Gestión de Idiomas (Español, Inglés, Francés, etc.)
-_-Gestión de Descripcion de Articulos
-_-Gestión de Clientes
-_-Gestión de Empleados (quienes asisten al cliente en la renta)
-_-Proceso de Renta y Devolución de articulos
-_-Una consulta por criterios (ej: Rentas por Cliente, fecha, articulo, etc.)
-_-Un Reporte de rentas: entre fechas, por tipo de articulo, etc. 
-_-Desarrollado en la tecnología de su preferencia.
+_-Gestión de Generos (Drama, Comedia, Ciencia Ficción, etc.)_
+_-Gestión de Idiomas (Español, Inglés, Francés, etc.)_
+_-Gestión de Descripcion de Articulos_
+_-Gestión de Clientes_
+_-Gestión de Empleados (quienes a_sisten al cliente en la renta)_
+_-Proceso de Renta y Devolución de articulos_
+_-Una consulta por criterios (ej: Rentas por Cliente, fecha, articulo, etc.)_
+_-Un Reporte de rentas: entre fechas, por tipo de articulo, etc._
+_-Desarrollado en la tecnología de su preferencia._
 
 ## Comenzando 🚀
 
