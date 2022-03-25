@@ -67,30 +67,30 @@ public class FrmLogin extends JFrame {
 		contentPane.setLayout(null);
 		
 		JPanel panel = new JPanel();
-		panel.setBounds(249, 151, 543, 354);
-		panel.setBackground(Color.GRAY);
+		panel.setBounds(250, 214, 543, 280);
+		panel.setBackground(SystemColor.window);
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
 		JLabel lbliconpass = new JLabel("");
 		lbliconpass.setIcon(new ImageIcon("C:\\Users\\Marcos Morillo\\Downloads\\imageedit_3_7733835392.png"));
-		lbliconpass.setBounds(44, 151, 70, 69);
+		lbliconpass.setBounds(44, 94, 70, 69);
 		panel.add(lbliconpass);
 		
 		JLabel lbliconuser = new JLabel("");
 		lbliconuser.setIcon(new ImageIcon("C:\\Users\\Marcos Morillo\\Downloads\\imageedit_6_7411422029.png"));
-		lbliconuser.setBounds(44, 57, 70, 57);
+		lbliconuser.setBounds(44, 26, 70, 57);
 		panel.add(lbliconuser);
 		
 		txtUser = new JTextField();
 		txtUser.setFont(new Font("Segoe UI", Font.PLAIN, 15));
-		txtUser.setBounds(111, 67, 359, 35);
+		txtUser.setBounds(111, 39, 359, 35);
 		panel.add(txtUser);
 		txtUser.setColumns(10);
 		
 		psdpass = new JPasswordField();
 		psdpass.setFont(new Font("Segoe UI", Font.PLAIN, 15));
-		psdpass.setBounds(111, 167, 359, 35);
+		psdpass.setBounds(111, 115, 359, 35);
 		panel.add(psdpass);
 		
 		JButton btnIngresar = new JButton("Ingresar");
@@ -102,12 +102,12 @@ public class FrmLogin extends JFrame {
 		btnIngresar.setForeground(Color.WHITE);
 		btnIngresar.setBackground(new Color(60, 179, 113));
 		btnIngresar.setFont(new Font("Tahoma", Font.BOLD, 17));
-		btnIngresar.setBounds(197, 251, 166, 57);
+		btnIngresar.setBounds(190, 189, 166, 57);
 		panel.add(btnIngresar);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBackground(Color.DARK_GRAY);
-		panel_1.setBounds(381, 85, 274, 55);
+		panel_1.setBounds(391, 148, 274, 55);
 		contentPane.add(panel_1);
 		
 		JLabel lblInicio = new JLabel("Inicio de Sesi\u00F3n");
