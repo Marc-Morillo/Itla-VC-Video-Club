@@ -4,18 +4,17 @@
 
 _Desarrolle un Sistema de Video Club que cumpla con las siguientes caracteristicas:
 
-Gestión de Tipos de Articulos (DVD Película, BLU-Ray Película , CD Música)
-Gestión de Elenco
-Gestión de Generos (Drama, Comedia, Ciencia Ficción, etc.)
-Gestión de Idiomas (Español, Inglés, Francés, etc.)
-Gestión de Descripcion de Articulos
-Gestión de Clientes
-Gestión de Empleados (quienes asisten al cliente en la renta)
-Proceso de Renta y Devolución de articulos
-Una consulta por criterios (ej: Rentas por Cliente, fecha, articulo, etc.)
-Un Reporte de rentas: entre fechas, por tipo de articulo, etc. 
-Desarrollado en la tecnología de su preferencia.
-![image](https://user-images.githubusercontent.com/86896794/160159085-8aaa90b6-ccac-4333-bef2-557c3a0a1065.png)_
+_- Gestión de Tipos de Articulos (DVD Película, BLU-Ray Película , CD Música)
+_-Gestión de Elenco
+_-Gestión de Generos (Drama, Comedia, Ciencia Ficción, etc.)
+_-Gestión de Idiomas (Español, Inglés, Francés, etc.)
+_-Gestión de Descripcion de Articulos
+_-Gestión de Clientes
+_-Gestión de Empleados (quienes asisten al cliente en la renta)
+_-Proceso de Renta y Devolución de articulos
+_-Una consulta por criterios (ej: Rentas por Cliente, fecha, articulo, etc.)
+_-Un Reporte de rentas: entre fechas, por tipo de articulo, etc. 
+_-Desarrollado en la tecnología de su preferencia.
 
 ## Comenzando 🚀
 
