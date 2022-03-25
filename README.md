@@ -110,8 +110,6 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 * **Marcos José Morillo Suarez** - *Trabajo Inicial* - [Marcos](https://github.com/Marc-Morillo)
 * **Marcos José Morillo Suarez** - *Documentación* - [Marcos](https://github.com/Marc-Morillo)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
