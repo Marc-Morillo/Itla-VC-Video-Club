@@ -81,6 +81,10 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 * **Matricula** - *2020-10624*
 
+* **Alexis Francisco Amézquita Almonte** - [Alexis](https://github.com/Alexisfco10o)
+
+* **Matricula** - *2020-10432*
+
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
