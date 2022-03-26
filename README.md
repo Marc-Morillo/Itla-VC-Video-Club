@@ -80,7 +80,7 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 * **Marcos José Morillo Suarez** - *Documentación* - [Marcos](https://github.com/Marc-Morillo)
 
 * **Matricula** - *2020-10624*
-
+---
 * **Alexis Francisco Amézquita Almonte** - [Alexis](https://github.com/Alexisfco10o)
 
 * **Matricula** - *2020-10432*
