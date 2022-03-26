@@ -85,6 +85,10 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 * **Matricula** - *2020-10432*
 
+* **Samuel Alcántara Manzueta** - [Samuel](https://github.com/SamAlcantara)
+
+* **Matricula** - *2020-10579*
+
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
